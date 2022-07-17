@@ -1,0 +1,15 @@
+#!/bin/bash
+
+SAVEDUSER="mike"
+SAVEDPASS="ace"
+
+read -p "Enter your username: " USER
+read -p "Enter your password: " PASS
+
+# Test if USER matches stored value
+if [ "$USER" == "$SAVEDUSER" ] && [ "$PASS" == "$SAVEDPASS" ]
+then
+    printf “Login Successful\n”
+else
+    printf “Login Failed\n”
+fi
