@@ -16,8 +16,8 @@ echo "And here's 5 results with 'Macintosh' in them\n"
 awk -F\" '($2 ~ "^GET /"){print $6}' ~/Documents/Shell-scripts/Linux2/apache/access.log.30 | sort | uniq -c | sort -nr | grep -ni "Macintosh" | head -n 5
 echo ""
 # Mac vs Windows?
-echo "Here's 5 results with 'Intel Mac OS X 10_6_8' in them\n"
-awk -F\" '($2 ~ "^GET /"){print $6}' ~/Documents/Shell-scripts/Linux2/apache/access.log.30 | sort | uniq -c | sort -nr | grep -ni "Intel Mac OS X 10_6_8" | head -n 5
+echo "Here's 5 results with 'Intel Mac OS X' in them\n"
+awk -F\" '($2 ~ "^GET /"){print $6}' ~/Documents/Shell-scripts/Linux2/apache/access.log.30 | sort | uniq -c | sort -nr | grep -ni "Intel Mac OS X" | head -n 5
 echo ""
 echo "And here's 5 results with 'Windows' in them\n"
 awk -F\" '($2 ~ "^GET /"){print $6}' ~/Documents/Shell-scripts/Linux2/apache/access.log.30 | sort | uniq -c | sort -nr | grep -ni "windows" | head -n 5
