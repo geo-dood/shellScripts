@@ -1,0 +1,11 @@
+echo "************************
+* Linux Server 2 Section 1 Midterm Script
+* Maysack-Schlueter
+* 07/18/2022
+************************"
+
+# first we will be checking the total number of lines in the file with wc (Word Count) with an -l flag; for lines
+wc -l security.log
+grep "lost connection" security.log | wc -l
+grep “dnsbl rank” security.log | wc -l
+grep “dnsbl rank” security.log | sort | head -n 1
