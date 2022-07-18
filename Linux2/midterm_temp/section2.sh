@@ -6,4 +6,3 @@ echo "************************
 
 grep "zen.spamhaus.org" security.log | wc -l
 grep "b.barracudacentral.org as " security.log | grep -E "(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)" | uniq -c | head -n 2 
-grep -w 'dnsbl rank' security.log | sort | head -n 1
