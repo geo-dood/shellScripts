@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # In honor of World Penguin Day, this is a script that will generate one of one-hundred random penguin facts.
-# My apologies for any repeats - it was hard to source 100 completely different fun facts.
+# My apologies for any repeateated information - it was hard to source 100 completely unique fun facts about penguins.
 
 # Facts sourced from: 
 # https://www.cabq.gov/artsculture/biopark/news/10-cool-facts-about-penguins
@@ -11,7 +11,7 @@
 # https://www.insider.com/penguins-things-you-never-knew-facts-2018-4
 # https://eartheclipse.com/animals/penguin-facts-for-kids.html
 
-# Author: George Maysack
+# Author: George Maysack-Schlueter
 # Inspired by https://bash.cyberciti.biz/guide/Chapter_4_answers
 
 # Genarating a random number between 1 and 100, and storing it in a variable called mynum, which we will use to select a random quote from our array.

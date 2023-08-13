@@ -1,4 +1,5 @@
 #!/bin/bash
+# A simple hash cracking tool.
 # storing the hash in a variable for easy access
 MySampleHash='14a4b8e7ae966e72a3a2c51633bfabc6'
 word="blyvooruitsig"
