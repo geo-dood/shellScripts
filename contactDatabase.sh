@@ -1,4 +1,5 @@
 #!/bin/bash
+## Author: George D. Maysack Schlueter
 while true
 do
 clear
@@ -29,4 +30,4 @@ case $ANSWER in
 		;;
 esac
 done
-#End of script
+##End of script
